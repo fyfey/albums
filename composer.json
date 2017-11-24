@@ -1,0 +1,18 @@
+{
+    "name": "stuart/album",
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Album\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stuart Fyfe",
+            "email": "sfyfe@enable.services"
+        }
+    ],
+    "require": {}
+}

@@ -25,6 +25,10 @@ class DurationTest extends TestCase
         $sut = Duration::fromString('1:30:22');
 
         $this->assertEquals('1:30:22', (string)$sut);
+
+        $sut = Duration::fromString('1:02:22');
+
+        $this->assertEquals('1:02:22', (string)$sut);
     }
 
     /** @test */

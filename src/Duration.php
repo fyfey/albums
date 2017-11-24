@@ -58,6 +58,6 @@ class Duration
 
     public function __toString()
     {
-        return sprintf('%d:%d:%d', $this->hours(), $this->minutes(), $this->seconds());
+        return sprintf('%d:%02d:%02d', $this->hours(), $this->minutes(), $this->seconds());
     }
 }
